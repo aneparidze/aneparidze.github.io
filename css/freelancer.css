@@ -63,15 +63,15 @@ hr.star-light {
 
 hr.star-light:after {
   color: white;
-  background-color: #18BC9C;
+  background-color: #9575CD;
 }
 
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #4A148C;
 }
 
 hr.star-primary:after {
-  color: #2C3E50;
+  color: #4A148C;
   background-color: white;
 }
 
@@ -90,7 +90,7 @@ section h2 {
 
 section.success {
   color: white;
-  background: #18BC9C;
+  background: #9575CD;
 }
 
 @media (max-width: 767px) {
@@ -130,7 +130,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50;
+  background: #4A148C;
 }
 
 #mainNav a:focus {
@@ -155,7 +155,7 @@ section.success {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #9575CD;
   outline: none;
 }
 
@@ -173,8 +173,8 @@ section.success {
 
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
   color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C;
+  border-color: #9575CD;
+  background-color: #9575CD;
 }
 
 @media (min-width: 992px) {
@@ -196,12 +196,12 @@ section.success {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: white;
     border-radius: 3px;
-    background: #18BC9C;
+    background: #9575CD;
   }
 
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: white;
-    background: #18BC9C;
+    background: #9575CD;
   }
 
   #mainNav.navbar-shrink {
@@ -219,7 +219,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C;
+  background: #9575CD;
 }
 
 header.masthead img {
@@ -377,7 +377,7 @@ header.masthead .intro-text .skills {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #2C3E50;
+  background-color: #4A148C;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -389,7 +389,7 @@ header.masthead .intro-text .skills {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #2C3E50;
+  background-color: #4A148C;
 }
 
 .portfolio-modal .modal-backdrop {
@@ -446,7 +446,7 @@ header.masthead .intro-text .skills {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #9575CD;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -463,7 +463,7 @@ footer h3 {
 
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #4A148C;
 }
 
 footer .footer-col {
@@ -472,7 +472,7 @@ footer .footer-col {
 
 footer .footer-below {
   padding: 25px 0;
-  background-color: #2c3e50;
+  background-color: #4A148C;
 }
 
 .btn-outline {
@@ -485,7 +485,7 @@ footer .footer-below {
 }
 
 .btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
-  color: #18BC9C;
+  color: #9575CD;
   border: solid 2px white;
   background: white;
 }
@@ -493,8 +493,8 @@ footer .footer-below {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #2C3E50;
-  background-color: #2C3E50;
+  border-color: #4A148C;
+  background-color: #4A148C;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -534,20 +534,20 @@ footer .footer-below {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-  border-color: #2C3E50;
-  background-color: #2C3E50;
+  border-color: #4A148C;
+  background-color: #4A148C;
 }
 
 .btn-primary .badge {
-  color: #2C3E50;
+  color: #4A148C;
   background-color: white;
 }
 
 .btn-success {
   font-weight: 700;
   color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C;
+  border-color: #9575CD;
+  background-color: #9575CD;
 }
 
 .btn-success.focus, .btn-success:focus {
@@ -587,12 +587,12 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-success.focus,
 fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success:hover {
-  border-color: #18BC9C;
-  background-color: #18BC9C;
+  border-color: #9575CD;
+  background-color: #9575CD;
 }
 
 .btn-success .badge {
-  color: #18BC9C;
+  color: #9575CD;
   background-color: white;
 }
 
