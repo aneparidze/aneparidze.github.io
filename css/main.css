@@ -424,7 +424,9 @@
 .lang-ge-small {
   font-family: 'bpg_excelsior_dejavu_2010', Sans-Serif;
 }
-
+.lang-en-small{
+  font-size: 11pt;
+}
 .fa-hackerrank:before {
   content: url(../img/hackerrank.png);
   width: 10px;
@@ -432,4 +434,9 @@
 
 #down, .btn.btn-lg.btn-outline {
   color: white;
+}
+
+#prof_image {
+  width: 257px;
+  border-radius: 100%;
 }

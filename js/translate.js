@@ -6,8 +6,8 @@ const AVAILABLE_LANGUAGES = ['ge', 'en']
 
 const DICTIONARY = {
     '': {'en': '', 'ge': ''},
-    'name': {'en': 'Niko Barateli', 'ge': 'ნიკო ბარათელი'},
-    'software_dev': {'en': 'Software Developer', 'ge': 'პროგრამული უზრუნველყოფის დეველოპერი'},
+    'name': {'en': 'Anano Neparidze', 'ge': 'ანანო ნეფარიძე'},
+    'software_dev': {'en': 'Social Media Manager', 'ge': 'პროგრამული უზრუნველყოფის დეველოპერი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
     'freeuni': {'en': 'Free University Of Tbilisi', 'ge': 'თბილისის თავისუფალი უნივერსიტეტი'},
     'degree': {'en': 'Bachelor of Computing', 'ge': 'ბაკალვრი კომპიუტინგში'},
@@ -20,11 +20,11 @@ const DICTIONARY = {
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
     'about_me': {
         'small': true,
-        'en': 'Hi. My name is Niko Barateli, I\'m a junior at Free University of Tbilisi.\n' +
+        'en': 'Hi. My name is Anano Neparidze, I\'m a junior at Free University of Tbilisi.\n' +
         'I can quickly learn new skills and adapt to a new environment. I\'m very punctual and enthusiastic towards my work.\n' +
         'I love solving problems, writing efficient code with good style and design and learning new technologies.'
         ,
-        'ge': 'გამარჯობა. მე ვარ ნიკო ბარათელი, თბილისის თავისუფალი უნივერსიტეტის, კომპიუტერული მეცნიერებებისა და მათემატიკის სკოლის მესამე კურსის სტუდენტი.\n' +
+        'ge': 'გამარჯობა. მე ვარ ანანო ნეფარიძე, თბილისის თავისუფალი უნივერსიტეტის, კომპიუტერული მეცნიერებებისა და მათემატიკის სკოლის მესამე კურსის სტუდენტი.\n' +
         'კომპიუტერულ მეცნირებებს ვსწავლობ ორ წელზე მეტია. ამ ორი წლის განმავლობაში ვიყავი ლექტორი ერთ-ერთი ასისტენტი (საგანი: პროგრამირების აბსტრაქციები, C++).\n' +
         'შემიძლია სწრაფად ავითვისო ახალი უნარები და მოვერგო ახალ გარემოს. ვარ პუნქტუალური და საქმის მიმართ ენთუზიასტურად განწყობილი. მიყვარს კარგი სტილის და დიზაინის მქონე, მაქსიმალურად მოქნილი კოდის წერა, არსებულის გაუმჯობესება, ახალი ტექნოლოგიების შესწავლა და ახალ ამოცანებთან გამკლავება. \n' +
         'ასევე, საუნივერსიტეტო განათლების ფარგლებში, მაქვს გუნდთან ერთად მუშაობის გამოცდილებაც (მიმუშავია github-ის გამოყენებით). ამჟამად, ჩემი დაინტერესების სფეროს წარმოადგენს ვებ დეველოპმენტი. საწყის დონეზე ვიცი Java EE, ASP.NET Core MVC და მაქვს სურვილი ეს ცოდნა პრაქტიკით გავაღრმავო. \n'
