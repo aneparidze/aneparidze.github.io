@@ -7,7 +7,7 @@ const AVAILABLE_LANGUAGES = ['ge', 'en']
 const DICTIONARY = {
     '': {'en': '', 'ge': ''},
     'name': {'en': 'Anano Neparidze', 'ge': 'ანანო ნეფარიძე'},
-    'software_dev': {'en': 'Social Media Manager', 'ge': 'სოციალური მედიის მენეჯერი'},
+    'soc_media': {'en': 'Social Media Manager', 'ge': 'სოციალური მედიის მენეჯერი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
     'agruni': {'en': 'Agrarian University Of Tbilisi', 'ge': 'თბილისის აგრარული უნივერსიტეტი'},
     'degree': {'en': 'Liberal Arts', 'ge': 'თავისუფალი მეცნიერებები'},
@@ -81,17 +81,36 @@ const DICTIONARY = {
     'office_software': {'en': 'Office Software', 'ge': 'საოფისე პროგრამები'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
+    'isi': {'en': 'International Sales Institute', 'ge': 'საერთაშორისო გაყიდვების ინსტიტუტი'},
     'jundev': {'en': 'Junior Web Developer', 'ge': 'უმცროსი ვებ დეველოპერი'},
-    'designge': {
+    'isi_desc': {
         'small': true,
-        'en': 'Responsible for fixing bugs or adding new features to already deployed or almost complete web\n' +
-        '                  projects.', 'ge': 'პასუხისმგებელი დასრულებულ ან თითქმის დასრულებულ პროექტებში ' +
-        'ბაგების გასწორებასა და ახალი ფუნქციონალის დამატებაზე.'
-    }, 'designge_date': {
-        'en': 'November 2017 - present',
-        'ge': 'ნოემბერი 2017 - დღემდე',
+        'en': 'Creating Content for Instagram & Facebook, replying to comments and messages, translating/writing\n' +
+        '                  articles & blog posts, management for projects & events.',
+        'ge': 'კონტენტის შექმნა ინსტაგრამისა და ფეისბუქის გვერდებისთვის,  შეტყობინებებსა და კომენტარებზე პასუხების გაცემა' +
+        ', სტატიების თარგმნა/წერა ბლოგისთვის, საორგანიზაციო საკითხები ღონისძიებებთან დაკავშირებით.'
+    }, 'isi_date': {
+        'en': '2016 October - 2017 April',
+        'ge': 'ოქტომბერი 2016 - აპრილი 2017',
         'small': true
     },
+    'vaporia_name': {'en': 'LTD "Vaporia"', 'ge': 'შპს. "ვეიფორია"'},
+    'vaporia_descr': {
+        'small': true,
+        'en': 'Creating Content for Instagram & Facebook, taking photos, translating various information & articles.',
+        'ge': 'კონტენტის შექმნა ინსტაგრამისა და ფეისბუქ გვერდებისთვის, ფოტოების გადაღება, სხვადასხვა ინფორმაციისა და სტატიების თარგმნა.'
+    },
+    'vaporia_date': {
+        'small': true,
+        'en': '2016 December - present',
+        'ge': 'დეკემბერი 2016 - დღემდე'
+    },
+    'cpywrt': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
+    'bookgeo_descr': {
+        'small': true,
+        'en': 'Writing articles about Georgia in English.\n',
+        'ge': 'სტატიების წერა ინგლისურად საქართველოს სხვადასხვა კუთხეზე.'
+    }, 'bookgeo_date': {'en': '2017 August - present', 'ge': 'აგვისტო 2017 - დღემდე', 'small': true}
 
 };
 
