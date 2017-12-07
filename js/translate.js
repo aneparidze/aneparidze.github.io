@@ -62,22 +62,6 @@ const DICTIONARY = {
         'small': true
     },
     'coursework': {'en': 'Related Coursework:', 'ge': 'გავლილი კურსები:'},
-    'seclead': {'en': 'Teaching Assistant (Section Leader)', 'ge': 'ლექტორის ასისტენტი (სექციის ლიდერი)'},
-    'seclead_date': {
-        'en': 'March 2017 - July 2017 | October 2017 - present',
-        'ge': 'მარტი 2017 - ივლისი 2017 | ოქტომბერი 2017 - დღემდე',
-        'small': true
-    },
-    'seclead_description': {
-        'small': true,
-        'en': 'Responsible for grading programming homeworks of 8-10 students (functionality, efficiency,' +
-        ' styling and documenting), explaining their mistakes and providing consultations\n' +
-        '\n' +
-        'if necessary.',
-        'ge': 'სექციის ლიდერებს ევალებათ კონსულტაციები  გაუწიონ სტუდენტებს კომპიუტერული მეცნიერებების\n' +
-        'ძირითად კურსებში და შეაფასონ მათ მიერ შესრულებული დავალებები აღნიშნულ კურსებში' +
-        ' ფუნქციონალურობის, ეფექტურობის, სტილის და დოკუმენტაციის მიხედვით.'
-    },
     'address': {
         'small': true, 'en': '\n' +
         '              10a Demetre Tavdadebuli Street, Apt &numero;12,<br>\n' +
