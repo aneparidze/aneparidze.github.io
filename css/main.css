@@ -299,7 +299,7 @@
   color: darkgrey;
 }
 
-.education, .work {
+.education, .work, .certificates {
   margin-bottom: 48px;
   padding-top: 50px;
   padding-bottom: 24px;
@@ -424,9 +424,11 @@
 .lang-ge-small {
   font-family: 'bpg_excelsior_dejavu_2010', Sans-Serif;
 }
-.lang-en-small{
+
+.lang-en-small {
   font-size: 11pt;
 }
+
 .fa-hackerrank:before {
   content: url(../img/hackerrank.png);
   width: 10px;
@@ -439,4 +441,24 @@
 #prof_image {
   width: 257px;
   border-radius: 100%;
+}
+
+.work_link {
+  color: white;
+}
+
+.skill_decription {
+  position: relative;
+  left: 10px;
+}
+
+.skill-flag {
+  left: 10px
+
+}
+
+.translate {
+  height: 18px;
+  width: 24px;
+  border-radius: 15%;
 }

@@ -7,12 +7,13 @@ const AVAILABLE_LANGUAGES = ['ge', 'en']
 const DICTIONARY = {
     '': {'en': '', 'ge': ''},
     'name': {'en': 'Anano Neparidze', 'ge': 'ანანო ნეფარიძე'},
-    'software_dev': {'en': 'Social Media Manager', 'ge': 'პროგრამული უზრუნველყოფის დეველოპერი'},
+    'software_dev': {'en': 'Social Media Manager', 'ge': 'სოციალური მედიის მენეჯერი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
-    'freeuni': {'en': 'Free University Of Tbilisi', 'ge': 'თბილისის თავისუფალი უნივერსიტეტი'},
-    'degree': {'en': 'Bachelor of Computing', 'ge': 'ბაკალვრი კომპიუტინგში'},
-    'date': {'en': 'September 2015 - Present', 'ge': 'სექტემბერი 2015 - დღემდე'},
+    'agruni': {'en': 'Agrarian University Of Tbilisi', 'ge': 'თბილისის აგრარული უნივერსიტეტი'},
+    'degree': {'en': 'Liberal Arts', 'ge': 'თავისუფალი მეცნიერებები'},
+    'date': {'en': 'September 2016 - Present', 'ge': 'სექტემბერი 2016 - დღემდე'},
     'work': {'en': 'Work', 'ge': 'სამუშაო გამოცდილება'},
+    'certificates': {'en': 'Certificates', 'ge': 'სერტიფიკატები'},
     'about': {'en': 'About', 'ge': 'ჩემს შესახებ'},
     'about_2': {'en': 'About me', 'ge': 'ჩემს შესახებ'},
     'down_cv': {'small': true, 'en': 'Download resume', 'ge': 'გადმოწერეთ რეზიუმე'},
@@ -20,14 +21,8 @@ const DICTIONARY = {
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
     'about_me': {
         'small': true,
-        'en': 'Hi. My name is Anano Neparidze, I\'m a junior at Free University of Tbilisi.\n' +
-        'I can quickly learn new skills and adapt to a new environment. I\'m very punctual and enthusiastic towards my work.\n' +
-        'I love solving problems, writing efficient code with good style and design and learning new technologies.'
-        ,
-        'ge': 'გამარჯობა. მე ვარ ანანო ნეფარიძე, თბილისის თავისუფალი უნივერსიტეტის, კომპიუტერული მეცნიერებებისა და მათემატიკის სკოლის მესამე კურსის სტუდენტი.\n' +
-        'კომპიუტერულ მეცნირებებს ვსწავლობ ორ წელზე მეტია. ამ ორი წლის განმავლობაში ვიყავი ლექტორი ერთ-ერთი ასისტენტი (საგანი: პროგრამირების აბსტრაქციები, C++).\n' +
-        'შემიძლია სწრაფად ავითვისო ახალი უნარები და მოვერგო ახალ გარემოს. ვარ პუნქტუალური და საქმის მიმართ ენთუზიასტურად განწყობილი. მიყვარს კარგი სტილის და დიზაინის მქონე, მაქსიმალურად მოქნილი კოდის წერა, არსებულის გაუმჯობესება, ახალი ტექნოლოგიების შესწავლა და ახალ ამოცანებთან გამკლავება. \n' +
-        'ასევე, საუნივერსიტეტო განათლების ფარგლებში, მაქვს გუნდთან ერთად მუშაობის გამოცდილებაც (მიმუშავია github-ის გამოყენებით). ამჟამად, ჩემი დაინტერესების სფეროს წარმოადგენს ვებ დეველოპმენტი. საწყის დონეზე ვიცი Java EE, ASP.NET Core MVC და მაქვს სურვილი ეს ცოდნა პრაქტიკით გავაღრმავო. \n'
+        'en': 'Hey! I\'m Ano, have a huge passion for writing. Can tell you dumb jokes and I bet you\'ll laugh.',
+        'ge': 'გამარჯობა! მე ვარ ანო,  მიყვარს წერა. შემიძლია სულელური ხუმრობები მოგიყვე და ზუსტად ვიცი, გაგეცინება.\n'
     },
     'methodology': {'en': 'Programming Methodology', 'ge': 'პროგრამირების მეთოდოლოგა', 'small': true},
     'abstractions': {'en': 'Programming Abstractions', 'ge': 'პროგრამირების აბსტრაქციები', 'small': true},
@@ -73,8 +68,17 @@ const DICTIONARY = {
     'phone_number': {'en': 'Phone Number', 'ge': 'საკონტაქტო ნომერი', 'small': true},
     'gifts': {'en': 'Send me cool gadgets at', 'ge': 'ამავსეთ საჩუქრებით: '},
     'skills': {'en': 'Skills', 'ge': 'უნარები'},
-    'soft': {'en': 'Software', 'ge': 'პროგრამები'},
-    'code_framework': {'en': 'Programming Language/Frameworks', 'ge': 'პროგრამირების ენები/ფრეიმვორკები'},
+    'languages': {'en': 'Languages', 'ge': 'ენები'},
+    'lang_ge': {'en': 'Georgian', 'ge': 'ქართული'},
+    'lang_en': {'en': 'English', 'ge': 'ინგლისური'},
+    'lang_ru': {'en': 'Russian', 'ge': 'რუსული'},
+    'lang_nat': {'en': 'Native', 'ge': 'მშობლიური'},
+    'lang_flu': {'en': 'Fluent', 'ge': 'თავისუფლად'},
+    'lang_lim': {'en': 'Limited', 'ge': 'შეზღუდული'},
+    'advanced': {'en': 'Advanced', 'ge': 'კარგად'},
+    'basic': {'en': 'Basic', 'ge': 'საწყისები'},
+    'personal': {'en': 'Personal', 'ge': 'პიროვნული'},
+    'office_software': {'en': 'Office Software', 'ge': 'საოფისე პროგრამები'},
     'around_web': {'en': 'Around the Web', 'ge': 'მიპოვეთ ინტერნეტში'},
     'email_me': {'small': true, 'en': 'Email me at', 'ge': 'მომწერეთ ელ-ფოსტაზე '},
     'jundev': {'en': 'Junior Web Developer', 'ge': 'უმცროსი ვებ დეველოპერი'},
@@ -111,6 +115,7 @@ function translate(lang) {
 
             $(this).addClass('lang-' + lang + (DICTIONARY[key]['small'] === true ? '-small' : ''));
         } catch (e) {
+            console.log($(this)[0]);
             console.error(key)
         }
     });
