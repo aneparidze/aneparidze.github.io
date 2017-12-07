@@ -272,7 +272,7 @@ blockquote cite:before {
 
 blockquote cite a,
 blockquote cite a:visited {
-  color: #8B9798;
+  color: #4DB6AC;
   border: none
 }
 
@@ -359,7 +359,6 @@ hr {
 a, a:visited {
   text-decoration: none;
   outline: 0;
-  color: #b01f90;
 
   -webkit-transition: color .3s ease-in-out;
   -moz-transition: color .3s ease-in-out;
@@ -367,8 +366,17 @@ a, a:visited {
   transition: color .3s ease-in-out;
 }
 
+a {
+  color: #4DB6AC;
+}
+
+a:visited {
+  color: #4DB6AC;
+
+}
+
 a:hover, a:focus {
-  color: #310b23;
+  color: #004D40;
 }
 
 p a, p a:visited {

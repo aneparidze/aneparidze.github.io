@@ -25,6 +25,17 @@ a:hover {
   outline: none;
 }
 
+a {
+  color: #4DB6AC;
+}
+
+a:visited {
+  color: #4DB6AC;
+}
+
+a:hover, a:focus {
+  color: #004D40;
+}
 h1,
 h2,
 h3,
