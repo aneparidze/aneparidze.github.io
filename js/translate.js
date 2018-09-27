@@ -106,8 +106,8 @@ const DICTIONARY = {
     },
     'vaporia_date': {
         'small': true,
-        'en': '2016 December - present',
-        'ge': 'დეკემბერი 2016 - დღემდე'
+      'en': '2016 December - 2018 May',
+      'ge': 'დეკემბერი 2016 - 2018 მაისი'
     },
     'cpywrt': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
     'bookgeo_descr': {
