@@ -19,7 +19,7 @@ const DICTIONARY = {
     'dec': {'en': 'December', 'ge': 'დეკემბერი', 'small': true},
     '': {'en': '', 'ge': ''},
     'name': {'en': 'Anano Neparidze', 'ge': 'ანანო ნეფარიძე'},
-    'soc_media': {'en': 'Social Media Manager', 'ge': 'სოციალური მედიის მენეჯერი'},
+    'soc_media': {'en': 'Social Media Manager | Copywriter', 'ge': 'სოციალური მედიის მენეჯერი | ქოფირაითერი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
     'agruni': {'en': 'Agricultural University of Georgia', 'ge': 'საქართველოს აგრარული უნივერსიტეტი'},
     'degree': {'en': 'Liberal Arts', 'ge': 'თავისუფალი მეცნიერებები'},
