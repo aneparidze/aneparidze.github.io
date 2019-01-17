@@ -36,6 +36,7 @@ const DICTIONARY = {
     'certificates': {'en': 'Certificates', 'ge': 'სერტიფიკატები'},
     'about': {'en': 'About', 'ge': 'ჩემ შესახებ'},
     'about_2': {'en': 'About me', 'ge': 'ჩემ შესახებ'},
+    'portfolio': {'en': 'Portfolio', 'ge': 'პორტფოლიო'},
     'down_cv': {'small': true, 'en': 'Download resume', 'ge': 'გადმოწერეთ რეზიუმე'},
     'resume': {'en': 'Resume', 'ge': 'რეზიუმე'},
     'contact': {'en': 'Contact', 'ge': 'დამიკავშირდით'},
@@ -64,10 +65,10 @@ const DICTIONARY = {
     'coursework': {'en': 'Related Coursework:', 'ge': 'გავლილი კურსები:'},
     'address': {
         'small': true, 'en': '\n' +
-        '              10a Demetre Tavdadebuli Street, Apt &numero;12,<br>\n' +
-        '              Tbilisi, 0131, Georgia<br>', 'ge': '\n' +
-        '              10ა დემეტრე თავდადებულის ქუჩა, ბ. &numero;12,<br>\n' +
-        '              თბილისი, 0131, საქართველო<br>'
+            '              10a Demetre Tavdadebuli Street, Apt &numero;12,<br>\n' +
+            '              Tbilisi, 0131, Georgia<br>', 'ge': '\n' +
+            '              10ა დემეტრე თავდადებულის ქუჩა, ბ. &numero;12,<br>\n' +
+            '              თბილისი, 0131, საქართველო<br>'
     },
     'phone_number': {'en': 'Phone Number', 'ge': 'საკონტაქტო ნომერი', 'small': true},
     'gifts': {'en': 'Send me cool gadgets at', 'ge': 'ამავსეთ საჩუქრებით: '},
@@ -90,9 +91,9 @@ const DICTIONARY = {
     'isi_desc': {
         'small': true,
         'en': 'Creating Content for Instagram & Facebook, replying to comments and messages, translating/writing\n' +
-        '                  articles & blog posts, management for projects & events.',
+            '                  articles & blog posts, management for projects & events.',
         'ge': 'კონტენტის შექმნა ინსტაგრამისა და ფეისბუქის გვერდებისთვის,  შეტყობინებებსა და კომენტარებზე პასუხების გაცემა' +
-        ', სტატიების თარგმნა/წერა ბლოგისთვის, საორგანიზაციო საკითხები ღონისძიებებთან დაკავშირებით.'
+            ', სტატიების თარგმნა/წერა ბლოგისთვის, საორგანიზაციო საკითხები ღონისძიებებთან დაკავშირებით.'
     }, 'isi_date': {
         'en': '2016 October - 2017 April',
         'ge': 'ოქტომბერი 2016 - აპრილი 2017',
@@ -106,8 +107,8 @@ const DICTIONARY = {
     },
     'vaporia_date': {
         'small': true,
-      'en': '2016 December - 2018 May',
-      'ge': 'დეკემბერი 2016 - 2018 მაისი'
+        'en': '2016 December - 2018 May',
+        'ge': 'დეკემბერი 2016 - 2018 მაისი'
     },
     'cpywrt': {'en': 'Copywriter', 'ge': 'ქოფირაითერი'},
     'bookgeo_descr': {
