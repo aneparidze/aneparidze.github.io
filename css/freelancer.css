@@ -36,6 +36,7 @@ a:visited {
 a:hover, a:focus {
   color: #004D40;
 }
+
 h1,
 h2,
 h3,
@@ -622,4 +623,21 @@ fieldset[disabled] .btn-success:hover {
 .btn:active,
 .btn:focus {
   outline: none;
+}
+
+#portfolio {
+  background: #9575CD;
+  text-align: center;
+
+}
+
+#pixlee_container {
+  display: inline-block;
+  width: 50%;
+  background: #9575CD;
+}
+
+#ig_link {
+  display: block;
+  margin: 10px;
 }
