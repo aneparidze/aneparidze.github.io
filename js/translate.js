@@ -118,7 +118,8 @@ const DICTIONARY = {
   },
   'bookgeo_date': {'en': '2017 August - present', 'ge': 'აგვისტო 2017 - დღემდე', 'small': true},
   'hammock': {'en': 'Hammock Magazine', 'ge': 'ჟურნალი Hammock'},
-  'hammock_position': {'en': 'Author Intern', 'ge': 'სტაჟირება, ავტორი'}
+    'hammock_position': {'en': 'Author Intern', 'ge': 'სტაჟირება, ავტორი'},
+    'area_position': {'en': 'Blogger', 'ge': 'ბლოგერი'}
 
 };
 
