@@ -228,7 +228,7 @@ section.success {
 
 header.masthead {
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   text-align: center;
   color: white;
   background: #9575CD;
@@ -263,7 +263,7 @@ header.masthead .intro-text .skills {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
   }
 
   header.masthead .intro-text .name {
@@ -628,7 +628,15 @@ fieldset[disabled] .btn-success:hover {
 #portfolio {
   background: #9575CD;
   text-align: center;
+  padding: 1px !important;
+}
 
+#resume_side_education {
+  padding-top: 0;
+}
+
+#resume {
+  padding-top: 10px;
 }
 
 #pixlee_container {
