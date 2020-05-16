@@ -21,6 +21,7 @@ const DICTIONARY = {
     '': {'en': '', 'ge': ''},
     'name': {'en': 'Anano Neparidze', 'ge': 'ანანო ნეფარიძე'},
     'soc_media': {'en': 'Social Media Manager', 'ge': 'სოციალური მედიის მენეჯერი'},
+    'copywriter': {'en': 'Copywriter, Freelance illustrator', 'ge': 'ქოფირაითერი, დამოუკიდებელი ილუსტრატორი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
     'agruni': {'en': 'Agricultural University of Georgia', 'ge': 'საქართველოს აგრარული უნივერსიტეტი'},
     'degree': {'en': 'Liberal Arts', 'ge': 'თავისუფალი მეცნიერებები'},
