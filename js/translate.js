@@ -122,6 +122,7 @@ const DICTIONARY = {
     'hammock_position': {'en': 'Author Intern', 'ge': 'სტაჟირება, ავტორი'},
     'area_position': {'en': 'Blogger', 'ge': 'ბლოგერი'},
     'at_position': {'en': 'Freelance Graphic Designer', 'ge': 'დამოუკიდებელი გრაფიკული დიზაინერი'},
+    // 'funduki_positon': {'en': 'Content Creator', 'ge': 'დამოუკიდებელი გრაფიკული დიზაინერი'},
     'portfolio': {'en': 'Portfolio', 'ge': 'პორტფოლიო'}
 
 };
