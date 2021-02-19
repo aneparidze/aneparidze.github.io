@@ -24,7 +24,7 @@ const DICTIONARY = {
     'copywriter': {'en': 'Copywriter, Freelance illustrator', 'ge': 'ქოფირაითერი, დამოუკიდებელი ილუსტრატორი'},
     'edu': {'en': 'Education', 'ge': 'განათლება'},
     'agruni': {'en': 'Agricultural University of Georgia', 'ge': 'საქართველოს აგრარული უნივერსიტეტი'},
-    'degree': {'en': 'Liberal Arts', 'ge': 'თავისუფალი მეცნიერებები'},
+    'degree': {'en': 'Liberal Arts, Bachelor\'s Degree', 'ge': 'თავისუფალი მეცნიერებები, ბაკალავრის ხარისხი'},
     'date': {'en': 'September 2016 - Present', 'ge': 'სექტემბერი 2016 - დღემდე'},
     'iowa_school': {'en': 'Iowa State Norwalk Public School', 'ge': 'აიოვას შტატის ნორვალკის საჯარო სკოლა'},
     'demirel': {'en': 'Private Demirel College', 'ge': 'დემირელის სახელობის კერძო კოლეჯი'},
@@ -122,7 +122,11 @@ const DICTIONARY = {
     'hammock_position': {'en': 'Author Intern', 'ge': 'სტაჟირება, ავტორი'},
     'area_position': {'en': 'Blogger', 'ge': 'ბლოგერი'},
     'at_position': {'en': 'Freelance Graphic Designer', 'ge': 'დამოუკიდებელი გრაფიკული დიზაინერი'},
-    // 'funduki_positon': {'en': 'Content Creator', 'ge': 'დამოუკიდებელი გრაფიკული დიზაინერი'},
+    'nduo': {
+        'en': 'Social Media Manager, Photographer, Graphic Designer',
+        'ge': 'სოციალური მედიის მენეჯერი, ფოტოგრაფი, გრაფიკული დიზაინერი'
+    },
+    'smartfish_cert': {'en': 'Graphics Design course', 'ge': 'გრაფიკული დიზაინის კურსი'},
     'portfolio': {'en': 'Portfolio', 'ge': 'პორტფოლიო'}
 
 };
